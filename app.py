@@ -18,7 +18,7 @@ class MyWebSocket:
         for client in connected_clients.values():
             await client.send(message)
 
-start_server = websockets.serve(MyWebSocket(), "192.168.50.102", 5000)
+start_server = websockets.serve(MyWebSocket(), "0.0.0.0", 5000)
 
 
 asyncio.get_event_loop().run_until_complete(start_server)
