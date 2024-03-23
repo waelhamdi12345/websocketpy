@@ -1,3 +1,4 @@
 gunicorn==19.7.1
 asyncio==3.4.3  # or the appropriate version you're using
 websockets==10.0  # or the appropriate version you're using
+Python == 3.10.13
