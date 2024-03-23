@@ -1,2 +1,2 @@
-asyncio==3.5.0  # or the appropriate version you're using
+asyncio==3.4.3  # or the appropriate version you're using
 websockets==10.0  # or the appropriate version you're using
