@@ -1,13 +1,6 @@
 import asyncio
 import websockets
-import inspect
 
-def my_function(arg1, arg2):
-    pass
-
-# Get the function signature
-signature = inspect.signature(my_function)
-print(signature.parameters)
 connected_clients = {}
 
 class MyWebSocket:
